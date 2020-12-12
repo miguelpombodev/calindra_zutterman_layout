@@ -1,0 +1,100 @@
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: center;
+    }
+
+    .dots_mobile {
+        display: block;
+        position: absolute;
+        left: 2px;
+    }
+
+    .logo > img {
+        width: 20px;
+    }
+
+    .logo > div {
+        display: none;
+    }
+
+    .menu {
+        position: absolute;
+        left: 0px;
+        height: 92vh;
+        top: 13.9%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        transform: translateX(-100%);
+        transition: transform 0.5s ease-in;
+        border-radius: 0 5px 5px 0;
+    }
+
+    .dot_activated {
+        transform: translateX(0%);
+    }
+    
+}
+
+@media screen and (min-width: 769px){
+    .dots_mobile {
+        display: none;
+    }
+
+    nav {
+        justify-content: space-between;  
+    }
+}
+
+
+nav {
+    display: flex;
+    align-items: center;     
+    background-color: #fff;
+}
+
+
+
+.dots_mobile > div {
+    border-radius: 50%;
+    background-color: #E2E0B8;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 7px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;        
+}
+
+
+.logo > img {
+    width: 90px;
+    padding: 20px;
+}
+
+.logo > div > h1 {
+    font-size: 1.9rem;
+}
+
+.logo > div > p {
+    letter-spacing: 2px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu > li {
+    margin: 0 3.5rem 0 3.5rem;
+    letter-spacing: 0.1rem;
+} 
+
+.menu > li > a {
+    text-decoration: none;
+}
+

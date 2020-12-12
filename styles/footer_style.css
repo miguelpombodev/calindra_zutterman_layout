@@ -1,0 +1,46 @@
+@media only screen and (max-width: 768px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .socials {
+        width: 147px;
+        margin: 0 auto;
+    }
+    
+    .contact {        
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    .socials {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+}
+
+footer {
+    display: flex;
+    padding: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > div {
+    margin-right: 24%;
+}
+
+.socials {
+    line-height: 4rem;
+}
+
+.contact {        
+    width: 121px;
+}
+
+.contact > h2 {        
+    line-height: 4rem;
+}
